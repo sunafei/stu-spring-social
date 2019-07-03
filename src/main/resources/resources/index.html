@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $.get("/user/me", function (data) {
+            $("#info").html(JSON.stringify(data, null, 2));
+        });
+    </script>
+</head>
+<body>
+用户信息为:
+<pre id="info"></pre>
+</body>
+</html>

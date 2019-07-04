@@ -6,6 +6,4 @@
 .idea
 *.iml
 target/
-.logs/
-src/main/resources/rebel.xml
-src/main/resources/application-dev.xml
+privateConfig.txt

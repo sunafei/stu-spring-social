@@ -1,5 +1,5 @@
 spring:
   profiles:
-    active: formal
+    active: dev
   message:
     encoding: UTF-8

@@ -4,5 +4,6 @@
 1. github上Settings/Developer settings申请OAuth Apps
 ![githubOAuthApps](./resources/githubOAuthApps.png)
 2. 修改application-formal.yml文件,替换security/social/github下app-id,app-secret参数
-3. 启动系统测试  
+3. 如果需要修改URL需要同步修改login.html的登陆地址
+4. 启动系统测试  
 ![githubDemo](./resources/githubDemo.png)

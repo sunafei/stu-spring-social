@@ -11,6 +11,6 @@ security:
       app-secret:
       providerId:
     github:
-      app-id: 2b0fe16de4597db23a12
-      app-secret: 8fed4616eaf29b3252ff5d730817a390512525b3
+      app-id: cb5001dd6b2a532a4633
+      app-secret: 60ca49dc9e6993158cff497a88f52f49ed469e18
       providerId: github
